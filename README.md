@@ -13,7 +13,7 @@ To setup the database:
 Outcome example:
 =====================
 
-<img src='image/database.jpg' width="100" height="100>
+<img src="image/database.jpg" width="100" height="100>
 
 To check you have everything set up ok, please take a look at the peeps table inside the chitter database. You should see one row in there.  
 
