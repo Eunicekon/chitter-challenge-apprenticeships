@@ -13,7 +13,7 @@ To setup the database:
 Outcome example:
 =====================
 
-<img src="image/database.jpg" width="200" height="00>
+<img src="image/database.jpg" width="200" height="200>
 
 To check you have everything set up ok, please take a look at the peeps table inside the chitter database. You should see one row in there.  
 
@@ -28,6 +28,11 @@ command `CREATE DATABASE chitter_test;`;
 * `rspec`
 
 You should see 1 passing test.
+
+REST
+==========
+
+<img src="image/REST.jpg" width="200" height="200>
 
 ## User stories
 
