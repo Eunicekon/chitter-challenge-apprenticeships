@@ -1,5 +1,17 @@
+<body>
+
+<h2>Chitter</h2>
+
 <ul>
   <% @messages.each do |messages| %>
     <li><%= messages %></li>
   <% end %>
 </ul>
+
+<form action="/post_message" method="post">
+  <label for="input">Post your comment here:</label><br>
+  <input type="text" name="comment">
+  <input type="submit" value="Submit">
+</form>
+
+</body>

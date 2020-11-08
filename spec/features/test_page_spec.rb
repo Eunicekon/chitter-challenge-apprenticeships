@@ -20,3 +20,13 @@ end
 # As a Maker
 # So that I can let people know what I am doing  
 # I want to post a message (peep) to chitter
+feature 'post_a_messages' do
+  scenario 'post a messages' do
+    visit('/index')
+
+    fill_in :comment, with: 'Hello'
+    click_button 'Submit'
+    
+    expect(page).to have_content "Hello"
+  end
+end
