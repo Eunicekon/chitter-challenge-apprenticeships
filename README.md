@@ -32,7 +32,7 @@ You should see 1 passing test.
 REST
 ==========
 
-<img src="images/REST.jpg" width="200" height="200>
+<img src="images/REST.jpg" width="300" height="300>
 
 ## User stories
 
